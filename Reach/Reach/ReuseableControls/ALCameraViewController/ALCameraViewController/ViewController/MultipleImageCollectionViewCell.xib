@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MultipleImagesCollectionViewCell" id="Yf7-Im-psC" customClass="MultipleImagesCollectionViewCell" customModule="DITY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nod-Pu-Gz7">
+                        <color key="backgroundColor" red="0.52156862749999999" green="0.52156862749999999" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btZ-hK-Gtj">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="9DI-yd-Ach"/>
+                            <constraint firstAttribute="width" constant="22" id="n5T-P6-Lfl"/>
+                        </constraints>
+                        <state key="normal" image="close"/>
+                        <connections>
+                            <action selector="btnCancelTapped:" destination="Yf7-Im-psC" eventType="touchUpInside" id="HTy-dt-Pn4"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nod-Pu-Gz7" secondAttribute="bottom" id="2Y4-ZR-1xR"/>
+                <constraint firstItem="nod-Pu-Gz7" firstAttribute="top" secondItem="Yf7-Im-psC" secondAttribute="top" id="FGE-se-Vem"/>
+                <constraint firstAttribute="trailing" secondItem="nod-Pu-Gz7" secondAttribute="trailing" id="Gdd-GP-Yoh"/>
+                <constraint firstItem="nod-Pu-Gz7" firstAttribute="leading" secondItem="Yf7-Im-psC" secondAttribute="leading" id="MBP-Ei-lhY"/>
+                <constraint firstItem="nod-Pu-Gz7" firstAttribute="leading" secondItem="Yf7-Im-psC" secondAttribute="leading" id="MwX-vn-HgA"/>
+                <constraint firstAttribute="bottom" secondItem="nod-Pu-Gz7" secondAttribute="bottom" id="SUn-fm-f9L"/>
+                <constraint firstAttribute="trailing" secondItem="nod-Pu-Gz7" secondAttribute="trailing" id="pZg-jc-E8y"/>
+                <constraint firstAttribute="trailing" secondItem="btZ-hK-Gtj" secondAttribute="trailing" constant="1" id="s5s-Ow-1PN"/>
+                <constraint firstItem="nod-Pu-Gz7" firstAttribute="top" secondItem="Yf7-Im-psC" secondAttribute="top" id="wcN-6C-v3y"/>
+                <constraint firstItem="btZ-hK-Gtj" firstAttribute="top" secondItem="Yf7-Im-psC" secondAttribute="top" id="xoi-l8-7cx"/>
+            </constraints>
+            <connections>
+                <outlet property="btnCancel" destination="btZ-hK-Gtj" id="wFK-jh-ybP"/>
+                <outlet property="imgVwThumPic" destination="nod-Pu-Gz7" id="CJN-cn-08M"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="close" width="22" height="22"/>
+    </resources>
+</document>

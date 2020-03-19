@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AwesomeCache (5.0)
+  - ObjectMapper (3.2.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.0)
+  - AwesomeCache (~> 5.0.0)
+  - ObjectMapper (~> 3.2.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AwesomeCache
+    - ObjectMapper
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AwesomeCache: d8906955242173357caa0be0214d5e77dec32cc5
+  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 8a603be3061c9315f086454c2f3c3ee4c810b0b6
+
+COCOAPODS: 1.8.3

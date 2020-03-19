@@ -1,0 +1,177 @@
+PODS:
+  - Alamofire (4.7.3)
+  - ALCameraViewController (3.0.3)
+  - AwesomeCache (5.0)
+  - AWSCore (2.6.25)
+  - AWSS3 (2.6.25):
+    - AWSCore (= 2.6.25)
+  - BartyCrouch (3.13.0)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - Fabric (1.9.0)
+  - Firebase/Auth (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.2)
+  - Firebase/Core (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.1):
+    - FirebaseCore (= 5.0.6)
+  - Firebase/Database (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.2)
+  - Firebase/Messaging (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.3)
+  - Firebase/Storage (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.0)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.0.2):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (5.0.6):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (5.0.2):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.3):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (3.0.0):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GTMSessionFetcher/Core (1.2.0)
+  - IQKeyboardManagerSwift (6.1.1)
+  - JRMFloatingAnimation (0.1.2)
+  - Kingfisher (4.8.1)
+  - leveldb-library (1.20)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ObjectMapper (3.3.0)
+  - PINCache (2.3)
+  - PINOperation (1.1.1)
+  - Protobuf (3.6.0)
+  - SnapSDK/SCSDKBitmojiKit (1.0.6):
+    - PINCache (~> 2.3)
+    - PINOperation (~> 1.1)
+    - Protobuf (~> 3.5)
+  - SnapSDK/SCSDKCreativeKit (1.0.6):
+    - Protobuf (~> 3.5)
+    - YYImage (~> 1.0.4)
+    - YYImage/WebP
+  - SnapSDK/SCSDKLoginKit (1.0.6):
+    - Protobuf (~> 3.5)
+  - SVProgressHUD (2.2.5)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - ALCameraViewController
+  - AwesomeCache
+  - AWSS3
+  - BartyCrouch
+  - Crashlytics
+  - Fabric
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - IQKeyboardManagerSwift
+  - JRMFloatingAnimation
+  - Kingfisher
+  - ObjectMapper
+  - SnapSDK/SCSDKBitmojiKit
+  - SnapSDK/SCSDKCreativeKit
+  - SnapSDK/SCSDKLoginKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ALCameraViewController
+    - AwesomeCache
+    - AWSCore
+    - AWSS3
+    - BartyCrouch
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - JRMFloatingAnimation
+    - Kingfisher
+    - leveldb-library
+    - nanopb
+    - ObjectMapper
+    - PINCache
+    - PINOperation
+    - Protobuf
+    - SnapSDK
+    - SVProgressHUD
+    - YYImage
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
+  AwesomeCache: d8906955242173357caa0be0214d5e77dec32cc5
+  AWSCore: 93ac57c361f6ff9c0749adf9404c4a1a1ecdaa2b
+  AWSS3: 0614ff4e0f0d11942322b5a15c30927a93fe35db
+  BartyCrouch: 69e5e6ec67e77951dc1c22aa48abbf05d175b81c
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseAuth: 096e457cdd4274412a66c4a35874787e411f5a03
+  FirebaseCore: 4c28e3b9708ba48a765e76515f913a71596eb5dd
+  FirebaseDatabase: 27be5ac5bc75e0b17537b2bbfada8258addcc8cd
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  FirebaseStorage: 7ca4bb7b58a25fa647b04f524033fc7cb7eb272b
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  JRMFloatingAnimation: f8a03be20d841dac0022f04edcd20df049319f4d
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  SnapSDK: 18c55b6f1e57a325a8cbe9f4e433a8064f20b2cc
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 832ed205d4445df2bfda9a529f42688b6aa11d97
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,95 @@
+
+/* No comment provided by engineer. */
+"Loading" = "Localized";
+
+// General
+"OK" = "OK";
+"AccessTokenFail" = "Please try again after some time";
+"AllFieldsAreMandatory" = "All the fields are mandatory";
+"PartyNameLength" = "Party name should not exceed more than 20 characters";
+"PleaseSelectBannerImage" = "Please select Banner Image";
+"IncorrectOtpMsg" = "Incorrect OTP";
+"TooManyAttempts" = "You have made too Many Attempts";
+"BlockedUser" = "User is blocked";
+
+/*Internet*/
+"NetworkError" = "The Internet connection appears to be offline";
+
+/** News Feed **/
+"ReachNavTitle" = "reach";
+"PeopleGoing" = " people going";
+
+/** Define Event **/
+"OpenEvent" = "Open Event";
+"ClosedEvent" = "Closed Event";
+
+/** Create Party **/
+"CreateParty" = "Create a party";
+"PeopleInvited" = " People Invited";
+"PostNavTitle" = "POST";
+"MaxAddressLength" = "Address should not exceed more than 100 characters";
+"Street1Length" = "Street 1 Address should not exceed more than 30 characters";
+"Street2Length" = "Street 2 Address should not exceed more than 30 characters";
+"MaxExtraDetailsLength" = "Extra Details should not exceed more than 100 characters";
+"EventCreatedSuccessfully" = "Event created successfully";
+"UnableToUploadProfileImage" = "Profile image could not be uploaded. Please try again!";
+"Hours" = " hours";
+
+/** Sign In **/
+"SignIn" = "Sign In";
+"ForgotPasswordNavTitle" = "Forgot Password";
+"UnableToSendCodeToThisMobileNumber" = "Unable to send code to this mobile number";
+"ResetPasswordNavTitle" = "Reset Password";
+"PasswordsShouldBeSame" = "Passwords should be same";
+"PasswordRequirements" = "Please enter password containing 6-15 alphanumeric and one special character";
+"EnterFourDigitOTP" = "Enter the 4 Digit OTP sent to your phone";
+
+/** Sign Up **/
+"SignUpNavTitle" = "Sign Up";
+"Terms1" = "By signing up, you agree to Reach’s";
+"Terms2" = " Terms and conditions of Use";
+"And" = " and";
+"PrivacyPolicy" = " Privacy Policy";
+"AvailableText" = "Available";
+"NotAvailableUsernameText" = "Username Not Available";
+
+"NotAvailableText" = "Not Available";
+"TooShortUsername" = "Too short Username";
+"InvalidEmailAddress" = "Invalid Email Address";
+"PleaseChooseProfileImage" = "Please choose your profile image";
+"PhoneNumberNavTitle" = "Phone Number";
+"UnableToSendCode" = "Unable to send code to this mobile number";
+"OtpSentAgain" = "Otp Sent Again";
+"FullNameIsMandatory" = "Full Name is mandatory";
+"UsernameIsMandatory" = "Username is mandatory";
+"PasswordIsMandatory" = "Password is mandatory";
+"PasswordShouldHaveAlphanumericSpecialCharacter" = "Password should have 6-15 alphanumeric & one special character";
+"EmailIsMandatory" = "Email is mandatory";
+"ProvinceIsMandatory" = "Province is mandatory";
+"CityIsMandatory" = "City is mandatory";
+"GenderIsMandatory" = "Gender is mandatory";
+"SelectProvinceFirst" = "Select province first";
+"EnterValidMobileNumber" = "Enter valid mobile number";
+"PhoneNumber" = "Phone Number";
+
+/** Web View **/
+"TermsAndConditions" = "Terms and Conditions";
+"AboutUs" = "About Us";
+
+/** Change Password **/
+"PasswordNavTitle" = "Password";
+"SaveNavButton" = "SAVE";
+"BackNavButton" = "BACK";
+"PasswordChanged" = "Password changed successfully";
+
+/** Settings **/
+"SettingsNavTitle" = "Settings";
+
+
+/* App Update Text */
+"ForceUpdateText" = "A newer version of application available, please update your app to proceed further.";
+"UpdateAvailabelText" = "Some new features are available. Would you like to update the application?";
+"UpdateTitle" = "Update";
+"LaterTitle" = "Later";
+"AppUpdateTitle" = "Application Update";
+

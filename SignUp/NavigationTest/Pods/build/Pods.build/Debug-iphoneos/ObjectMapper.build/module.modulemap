@@ -1,0 +1,4 @@
+framework module ObjectMapper {
+    header "ObjectMapper-Swift.h"
+    requires objc
+}

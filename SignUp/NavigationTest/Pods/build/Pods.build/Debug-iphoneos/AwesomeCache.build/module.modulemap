@@ -1,0 +1,4 @@
+framework module AwesomeCache {
+    header "AwesomeCache-Swift.h"
+    requires objc
+}

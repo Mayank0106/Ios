@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fR0-T5-PdV" customClass="JSQMessagesToolbarContentView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beQ-w9-NTF" userLabel="Left button container">
+                    <rect key="frame" x="8" y="6" width="34" height="32"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="34" id="1zC-Dv-0Jp"/>
+                        <constraint firstAttribute="height" constant="32" id="wy2-a9-dz1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vhB-ka-Up4" userLabel="Right button container">
+                    <rect key="frame" x="262" y="6" width="50" height="32"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="EUa-ee-WSi"/>
+                        <constraint firstAttribute="width" constant="50" id="EeR-d1-Qsg"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W2X-D8-g5I" customClass="JSQMessagesComposerTextView">
+                    <rect key="frame" x="50" y="7" width="204" height="30"/>
+                    <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="7ha-UE-YHh"/>
+                        <constraint firstAttribute="height" constant="30" id="88I-Fe-cI7"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="ALO-bP-CjN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="beQ-w9-NTF" secondAttribute="bottom" constant="6" id="ERc-rs-dPf"/>
+                <constraint firstItem="beQ-w9-NTF" firstAttribute="leading" secondItem="fR0-T5-PdV" secondAttribute="leading" constant="8" id="IC9-gr-hkj"/>
+                <constraint firstItem="W2X-D8-g5I" firstAttribute="top" secondItem="fR0-T5-PdV" secondAttribute="top" constant="7" id="Jaf-Nh-R8j"/>
+                <constraint firstAttribute="bottom" secondItem="vhB-ka-Up4" secondAttribute="bottom" constant="6" id="POw-2o-x1e"/>
+                <constraint firstAttribute="trailing" secondItem="vhB-ka-Up4" secondAttribute="trailing" constant="8" id="SRz-jM-rj4"/>
+                <constraint firstItem="vhB-ka-Up4" firstAttribute="leading" secondItem="W2X-D8-g5I" secondAttribute="trailing" constant="8" id="VfH-VD-UHL"/>
+                <constraint firstItem="W2X-D8-g5I" firstAttribute="leading" secondItem="beQ-w9-NTF" secondAttribute="trailing" constant="8" id="mfg-EU-AYt"/>
+                <constraint firstAttribute="bottom" secondItem="W2X-D8-g5I" secondAttribute="bottom" constant="7" id="y7y-HX-rVf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftBarButtonContainerView" destination="beQ-w9-NTF" id="W9q-LB-63I"/>
+                <outlet property="leftBarButtonContainerViewWidthConstraint" destination="1zC-Dv-0Jp" id="zRv-NJ-A83"/>
+                <outlet property="leftHorizontalSpacingConstraint" destination="IC9-gr-hkj" id="dfp-wc-IvK"/>
+                <outlet property="rightBarButtonContainerView" destination="vhB-ka-Up4" id="r0b-SD-cJ1"/>
+                <outlet property="rightBarButtonContainerViewWidthConstraint" destination="EeR-d1-Qsg" id="WTI-jn-vuS"/>
+                <outlet property="rightHorizontalSpacingConstraint" destination="SRz-jM-rj4" id="EiT-fZ-cbf"/>
+                <outlet property="textView" destination="W2X-D8-g5I" id="cxi-cX-fSu"/>
+            </connections>
+            <point key="canvasLocation" x="268" y="548"/>
+        </view>
+    </objects>
+</document>

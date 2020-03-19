@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NexaLight.otf">
+            <string>NexaLight</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MultipleImagesViewController" customModule="DITY" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraButton" destination="Xev-c8-7NF" id="ggG-YY-oNU"/>
+                <outlet property="cameraView" destination="ZEM-J4-QBx" id="ii1-K9-hTO"/>
+                <outlet property="closeButton" destination="u7p-3k-QBk" id="88o-Q8-O72"/>
+                <outlet property="collectionView" destination="Bmv-xS-6KS" id="f4t-gg-O38"/>
+                <outlet property="constraintHeightCollectionVw" destination="A07-6n-IDN" id="yMt-xc-Dhn"/>
+                <outlet property="nextButton" destination="XRp-eF-5pP" id="OFv-oQ-hyg"/>
+                <outlet property="view" destination="1Ab-3r-TmN" id="rpX-JP-xzI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1Ab-3r-TmN">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-Dd-qcV">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hky-kC-wTi">
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7p-3k-QBk">
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="qS3-Cm-xbB"/>
+                                        <constraint firstAttribute="height" constant="30" id="wcL-rB-16d"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
+                                    <state key="normal" title="CANCEL">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRp-eF-5pP">
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="2mI-HF-qzJ"/>
+                                        <constraint firstAttribute="width" constant="46" id="tX2-50-9r5"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="NexaLight" family="Nexa Light" pointSize="15"/>
+                                    <state key="normal" title="NEXT">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="XRp-eF-5pP" firstAttribute="centerY" secondItem="hky-kC-wTi" secondAttribute="centerY" id="083-ce-9gk"/>
+                                <constraint firstItem="u7p-3k-QBk" firstAttribute="centerY" secondItem="hky-kC-wTi" secondAttribute="centerY" id="Dzx-Aw-ZYw"/>
+                                <constraint firstAttribute="trailing" secondItem="XRp-eF-5pP" secondAttribute="trailing" constant="10" id="INr-tA-Ltk"/>
+                                <constraint firstAttribute="height" constant="64" id="IvN-tY-QQW"/>
+                                <constraint firstItem="u7p-3k-QBk" firstAttribute="leading" secondItem="hky-kC-wTi" secondAttribute="leading" constant="10" id="t3P-C2-7LV"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEM-J4-QBx" customClass="CameraView" customModule="DITY" customModuleProvider="target">
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Bmv-xS-6KS">
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="A07-6n-IDN"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="4" minimumInteritemSpacing="4" id="vJN-tU-9vA">
+                                <size key="itemSize" width="75" height="75"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="3" minY="10" maxX="3" maxY="5"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="ofw-TE-i5C"/>
+                                <outlet property="delegate" destination="-1" id="oVw-Bs-aBw"/>
+                            </connections>
+                        </collectionView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y8q-1e-aI9">
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xev-c8-7NF">
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="2ay-Ca-x7s"/>
+                                        <constraint firstAttribute="width" constant="44" id="8QK-ji-O3O"/>
+                                    </constraints>
+                                    <state key="normal" image="cameraButton"/>
+                                    <state key="highlighted" image="cameraButtonHighlighted"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Xev-c8-7NF" firstAttribute="centerX" secondItem="Y8q-1e-aI9" secondAttribute="centerX" id="1AE-I9-zXv"/>
+                                <constraint firstAttribute="height" constant="60" id="BeW-cl-5Kd"/>
+                                <constraint firstItem="Xev-c8-7NF" firstAttribute="centerY" secondItem="Y8q-1e-aI9" secondAttribute="centerY" id="FO1-8f-Uuc"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Bmv-xS-6KS" firstAttribute="top" secondItem="ZEM-J4-QBx" secondAttribute="bottom" id="65q-TY-QQo"/>
+                        <constraint firstItem="Bmv-xS-6KS" firstAttribute="leading" secondItem="p3s-Dd-qcV" secondAttribute="leading" id="9cW-7a-jm4"/>
+                        <constraint firstItem="ZEM-J4-QBx" firstAttribute="leading" secondItem="p3s-Dd-qcV" secondAttribute="leading" id="DH5-Dr-0c7"/>
+                        <constraint firstAttribute="trailing" secondItem="Bmv-xS-6KS" secondAttribute="trailing" id="EKk-Xk-lDf"/>
+                        <constraint firstAttribute="trailing" secondItem="ZEM-J4-QBx" secondAttribute="trailing" id="IZH-lW-V2j"/>
+                        <constraint firstItem="ZEM-J4-QBx" firstAttribute="top" secondItem="hky-kC-wTi" secondAttribute="bottom" id="JKg-9F-dPK"/>
+                        <constraint firstAttribute="trailing" secondItem="hky-kC-wTi" secondAttribute="trailing" id="N9l-cG-CJW"/>
+                        <constraint firstAttribute="bottom" secondItem="Y8q-1e-aI9" secondAttribute="bottom" id="NNc-e3-H3U"/>
+                        <constraint firstItem="Y8q-1e-aI9" firstAttribute="leading" secondItem="p3s-Dd-qcV" secondAttribute="leading" id="SfG-uN-kcm"/>
+                        <constraint firstItem="Y8q-1e-aI9" firstAttribute="top" secondItem="Bmv-xS-6KS" secondAttribute="bottom" id="Uxo-nV-EwT"/>
+                        <constraint firstAttribute="trailing" secondItem="Y8q-1e-aI9" secondAttribute="trailing" id="dG9-OZ-XAQ"/>
+                        <constraint firstItem="hky-kC-wTi" firstAttribute="top" secondItem="p3s-Dd-qcV" secondAttribute="top" id="e4x-lU-Ah1"/>
+                        <constraint firstItem="hky-kC-wTi" firstAttribute="leading" secondItem="p3s-Dd-qcV" secondAttribute="leading" id="o46-jc-0bC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="p3s-Dd-qcV" secondAttribute="bottom" id="26t-i4-ePi"/>
+                <constraint firstItem="p3s-Dd-qcV" firstAttribute="leading" secondItem="1Ab-3r-TmN" secondAttribute="leading" id="DtM-Wi-nCb"/>
+                <constraint firstItem="p3s-Dd-qcV" firstAttribute="top" secondItem="1Ab-3r-TmN" secondAttribute="top" id="EsO-dV-SiH"/>
+                <constraint firstAttribute="trailing" secondItem="p3s-Dd-qcV" secondAttribute="trailing" id="iPg-7e-e92"/>
+            </constraints>
+            <point key="canvasLocation" x="638" y="62"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cameraButton" width="80" height="80"/>
+        <image name="cameraButtonHighlighted" width="80" height="80"/>
+    </resources>
+</document>

@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/Models/FirebaseModels/ChatMessage.swift"
+            timestampString = "579592900.509711"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "sendChatNotification(body:recepientId:groupName:eventID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/Friend/AddFriendVCExtension.swift"
+            timestampString = "575462237.2796659"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/Friend/FriendVC.swift"
+            timestampString = "576067202.336637"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "unFriend(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/Friend/FriendVC.swift"
+            timestampString = "576067202.337153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
+            landmarkName = "unFriend(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reach.FriendVC.unFriend(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/ViewControllers/TabBar/Friend/FriendVC.swift"
+                  timestampString = "584355747.136075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "330"
+                  endingLineNumber = "330"
+                  offsetFromSymbolStart = "1139">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in Reach.FriendVC.unFriend(sender: __C.UIButton) -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/ViewControllers/TabBar/Friend/FriendVC.swift"
+                  timestampString = "584355747.139498"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "331"
+                  endingLineNumber = "331"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/Extensions/DateUtility.swift"
+            timestampString = "576050279.0180449"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "reduceOneSecondFromTime(date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/EditEvent/EditEventVCExtension.swift"
+            timestampString = "581317326.3630379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+            timestampString = "584355747.003453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "checkToCallkeyTokenService(handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/NewsFeed/EventDetailVC.swift"
+            timestampString = "581317326.363147"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "respondToSwipeGesture(gesture:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/InviteFriendsVC.swift"
+            timestampString = "584355747.003957"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/EditEvent/EditEventVCExtension.swift"
+            timestampString = "581317326.364545"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
+            landmarkName = "showAddressTimeInHoursDays(addressTime:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/EditEvent/EditEventVCExtension.swift"
+            timestampString = "581317326.364664"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "calculateAddressTime(rowNo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVC.swift"
+            timestampString = "581317326.364782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "366"
+            endingLineNumber = "366"
+            landmarkName = "calculateAddressTime(rowNo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVC.swift"
+            timestampString = "581317326.364905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "400"
+            endingLineNumber = "400"
+            landmarkName = "createPartyEventWebService(bannerImageURL:isDraft:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVC.swift"
+            timestampString = "581317326.365021"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "createEventModel(bannerImageURL:isDraft:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVC.swift"
+            timestampString = "581317326.365137"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
+            landmarkName = "createEventModel(bannerImageURL:isDraft:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVC.swift"
+            timestampString = "581317326.365254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "343"
+            endingLineNumber = "343"
+            landmarkName = "createEventModel(bannerImageURL:isDraft:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVCExtension.swift"
+            timestampString = "581317326.365374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVCExtension.swift"
+            timestampString = "581317326.3654881"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "btnDoneToolbarAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVCExtension.swift"
+            timestampString = "581317326.3656009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "pickerView(_:numberOfRowsInComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVCExtension.swift"
+            timestampString = "581317326.365711"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "pickerView(_:titleForRow:forComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVCExtension.swift"
+            timestampString = "581317326.365842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "numberOfComponents(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/ViewControllers/TabBar/CreateParty/CreateParty/CreatePartyDetailVC.swift"
+            timestampString = "581317326.36593"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "370"
+            endingLineNumber = "370"
+            landmarkName = "calculateAddressTime(rowNo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/WSLayer/APIs/EventAPI.swift"
+            timestampString = "581317064.199927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "createEvent(_:withHandler:failureHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+            timestampString = "584355747.004603"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "callAppTokenService(_:completionHandlerForTokenExpire:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Any&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.EditProfileVC.checkIfNameAvailableWebService(strTextInput: Swift.String) -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.212539"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1187">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Swift.Array&lt;Reach.ProvinceCityModel&gt;&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.EditProfileVC.getAllStatesWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.215075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "629">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Swift.Array&lt;Reach.ProvinceCityModel&gt;&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.EditProfileVC.getListOfAllCitiesWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.217581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "629">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Any&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.SignUpVC.checkIfNameAvailableWebService(strTextInput: Swift.String) -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.220214"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1157">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Swift.Array&lt;Reach.ProvinceCityModel&gt;&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.SignUpVC.getListOfAllStatesWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.222981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "462">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Swift.Array&lt;Reach.ProvinceCityModel&gt;&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.SignUpVC.getListOfAllCitiesWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.225512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "462">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Any&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.SignUpVC.verifyEmailIDWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.228164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Any&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.ForgotPasswordVC.validateMobileNoWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.230752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "847">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[0] = [Closure Propagated : closure #1 (Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.AppDelegate.initialSetup() -&gt; (), Argument Types : [Reach.AppDelegate]&gt; of Reach.AppDelegate.checkToCallkeyTokenService(handler: (Swift.Optional&lt;Swift.Bool&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.23338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "398">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Reach.VersionUpdate&gt;&gt;) -&gt; () in Reach.AppDelegate.callAPIToCheckAppUpdate() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.235935"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "1503">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Reach.UserModel&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.OTPVC.registerWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.2384731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "889">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Reach.UserModel&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.SignInVC.callSignInWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.241152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "827">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Any&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.VerifyMobileNumberVC.validateMobileNoWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.2436531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "847">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Reach.NSIResponse&lt;Any&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; () in Reach.ResetPasswordVC.resetPasswordWebService() -&gt; ()"
+                  moduleName = "Reach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aanchaljain/Projects/GIT/BOR/EVENTAPP/Reach/Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+                  timestampString = "584355747.246173"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reach/AppDelegate/AppDelegateWebServiceCalls.swift"
+            timestampString = "584355747.004902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "callAppTokenService(_:completionHandlerForTokenExpire:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

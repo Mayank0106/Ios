@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0640BF932406798A00C56223 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640BF922406798A00C56223 /* RegisterViewController.swift */; };
+		065B114D240E55AA00435FC4 /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1127240E55A900435FC4 /* AlamofireExtensions.swift */; };
+		065B114E240E55AA00435FC4 /* NSIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1128240E55A900435FC4 /* NSIResponse.swift */; };
+		065B114F240E55AA00435FC4 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1129240E55A900435FC4 /* APIHelper.swift */; };
+		065B1150240E55AA00435FC4 /* AccessTokenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B112B240E55A900435FC4 /* AccessTokenAPI.swift */; };
+		065B1159240E55AA00435FC4 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1134240E55A900435FC4 /* UserAPI.swift */; };
+		065B115A240E55AA00435FC4 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1136240E55A900435FC4 /* AccessToken.swift */; };
+		065B1170240E55AA00435FC4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B114C240E55AA00435FC4 /* User.swift */; };
+		065B1173240E5BA200435FC4 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 065B1172240E5BA200435FC4 /* Configuration.plist */; };
+		065B1177240E809F00435FC4 /* ReachConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1176240E809F00435FC4 /* ReachConfiguration.swift */; };
+		065B117C240E81F200435FC4 /* AlamofireCached.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B1179240E81F200435FC4 /* AlamofireCached.swift */; };
+		065B117D240E81F200435FC4 /* AlamofireResponseWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B117A240E81F200435FC4 /* AlamofireResponseWrapper.swift */; };
+		065B117E240E81F200435FC4 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B117B240E81F200435FC4 /* RequestBuilder.swift */; };
+		06675A5F240535D400812717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06675A5E240535D400812717 /* AppDelegate.swift */; };
+		06675A61240535D400812717 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06675A60240535D400812717 /* SignInViewController.swift */; };
+		06675A64240535D400812717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06675A62240535D400812717 /* Main.storyboard */; };
+		06675A66240535D400812717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06675A65240535D400812717 /* Assets.xcassets */; };
+		06675A69240535D400812717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06675A67240535D400812717 /* LaunchScreen.storyboard */; };
+		06B815CD24125B4B00B493AA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B815CC24125B4B00B493AA /* AppConstants.swift */; };
+		06B815CF24127A6800B493AA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B815CE24127A6800B493AA /* UserModel.swift */; };
+		06B815D124127C0500B493AA /* SignInAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B815D024127C0500B493AA /* SignInAPI.swift */; };
+		06B815D324127C3B00B493AA /* DeviceModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B815D224127C3B00B493AA /* DeviceModal.swift */; };
+		06E43E592418E1BE003ABF1B /* PropertyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E43E582418E1BE003ABF1B /* PropertyAPI.swift */; };
+		06ECB1252418F8AB00590987 /* PropertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECB1222418F8AB00590987 /* PropertyList.swift */; };
+		06ECB1262418F8AB00590987 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECB1232418F8AB00590987 /* PropertyModel.swift */; };
+		06ECB1272418F8AB00590987 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ECB1242418F8AB00590987 /* Property.swift */; };
+		B8B71DE2EB67FF820703AE39 /* Pods_Zepplin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C65E495B6917EDF5C3ACE2 /* Pods_Zepplin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0640BF922406798A00C56223 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		065B1127240E55A900435FC4 /* AlamofireExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
+		065B1128240E55A900435FC4 /* NSIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSIResponse.swift; sourceTree = "<group>"; };
+		065B1129240E55A900435FC4 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		065B112B240E55A900435FC4 /* AccessTokenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenAPI.swift; sourceTree = "<group>"; };
+		065B1134240E55A900435FC4 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		065B1136240E55A900435FC4 /* AccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		065B114C240E55AA00435FC4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		065B1172240E5BA200435FC4 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		065B1176240E809F00435FC4 /* ReachConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachConfiguration.swift; sourceTree = "<group>"; };
+		065B1179240E81F200435FC4 /* AlamofireCached.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireCached.swift; sourceTree = "<group>"; };
+		065B117A240E81F200435FC4 /* AlamofireResponseWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireResponseWrapper.swift; sourceTree = "<group>"; };
+		065B117B240E81F200435FC4 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		06675A5B240535D300812717 /* Zepplin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zepplin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06675A5E240535D400812717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06675A60240535D400812717 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		06675A63240535D400812717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06675A65240535D400812717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06675A68240535D400812717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06675A6A240535D400812717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06B815CC24125B4B00B493AA /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		06B815CE24127A6800B493AA /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		06B815D024127C0500B493AA /* SignInAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAPI.swift; sourceTree = "<group>"; };
+		06B815D224127C3B00B493AA /* DeviceModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModal.swift; sourceTree = "<group>"; };
+		06E43E582418E1BE003ABF1B /* PropertyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyAPI.swift; path = ../../../../SignUp/NavigationTest/WSLayer/APIs/PropertyAPI.swift; sourceTree = "<group>"; };
+		06ECB1222418F8AB00590987 /* PropertyList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyList.swift; sourceTree = "<group>"; };
+		06ECB1232418F8AB00590987 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
+		06ECB1242418F8AB00590987 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		44D053A5E9F5FE46366C30D6 /* Pods-Zepplin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zepplin.release.xcconfig"; path = "Target Support Files/Pods-Zepplin/Pods-Zepplin.release.xcconfig"; sourceTree = "<group>"; };
+		5732EFA5CB409A43F74EE25A /* Pods-Zepplin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zepplin.debug.xcconfig"; path = "Target Support Files/Pods-Zepplin/Pods-Zepplin.debug.xcconfig"; sourceTree = "<group>"; };
+		D9C65E495B6917EDF5C3ACE2 /* Pods_Zepplin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zepplin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06675A58240535D300812717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B71DE2EB67FF820703AE39 /* Pods_Zepplin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065B1126240E557B00435FC4 /* WSLayer */ = {
+			isa = PBXGroup;
+			children = (
+				065B1178240E81F200435FC4 /* Alamofire */,
+				065B1127240E55A900435FC4 /* AlamofireExtensions.swift */,
+				065B1129240E55A900435FC4 /* APIHelper.swift */,
+				065B112A240E55A900435FC4 /* APIs */,
+				065B1135240E55A900435FC4 /* Models */,
+				065B1128240E55A900435FC4 /* NSIResponse.swift */,
+			);
+			path = WSLayer;
+			sourceTree = "<group>";
+		};
+		065B112A240E55A900435FC4 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				065B112B240E55A900435FC4 /* AccessTokenAPI.swift */,
+				06E43E582418E1BE003ABF1B /* PropertyAPI.swift */,
+				065B1134240E55A900435FC4 /* UserAPI.swift */,
+				06B815D024127C0500B493AA /* SignInAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		065B1135240E55A900435FC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06ECB1242418F8AB00590987 /* Property.swift */,
+				06ECB1222418F8AB00590987 /* PropertyList.swift */,
+				06ECB1232418F8AB00590987 /* PropertyModel.swift */,
+				065B1136240E55A900435FC4 /* AccessToken.swift */,
+				065B114C240E55AA00435FC4 /* User.swift */,
+				06B815CE24127A6800B493AA /* UserModel.swift */,
+				06B815D224127C3B00B493AA /* DeviceModal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		065B1171240E5BA200435FC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				065B1172240E5BA200435FC4 /* Configuration.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		065B1178240E81F200435FC4 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				065B1179240E81F200435FC4 /* AlamofireCached.swift */,
+				065B117A240E81F200435FC4 /* AlamofireResponseWrapper.swift */,
+				065B117B240E81F200435FC4 /* RequestBuilder.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		06675A52240535D300812717 = {
+			isa = PBXGroup;
+			children = (
+				06675A5D240535D400812717 /* Zepplin */,
+				06675A5C240535D400812717 /* Products */,
+				8506C8B6302F4D6A8639B018 /* Pods */,
+				C72DCC9FB090955A964E1987 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06675A5C240535D400812717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06675A5B240535D300812717 /* Zepplin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06675A5D240535D400812717 /* Zepplin */ = {
+			isa = PBXGroup;
+			children = (
+				06B815CC24125B4B00B493AA /* AppConstants.swift */,
+				065B1176240E809F00435FC4 /* ReachConfiguration.swift */,
+				065B1171240E5BA200435FC4 /* Resources */,
+				065B1126240E557B00435FC4 /* WSLayer */,
+				06675A5E240535D400812717 /* AppDelegate.swift */,
+				06675A60240535D400812717 /* SignInViewController.swift */,
+				06675A62240535D400812717 /* Main.storyboard */,
+				0640BF922406798A00C56223 /* RegisterViewController.swift */,
+				06675A65240535D400812717 /* Assets.xcassets */,
+				06675A67240535D400812717 /* LaunchScreen.storyboard */,
+				06675A6A240535D400812717 /* Info.plist */,
+			);
+			path = Zepplin;
+			sourceTree = "<group>";
+		};
+		8506C8B6302F4D6A8639B018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5732EFA5CB409A43F74EE25A /* Pods-Zepplin.debug.xcconfig */,
+				44D053A5E9F5FE46366C30D6 /* Pods-Zepplin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C72DCC9FB090955A964E1987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9C65E495B6917EDF5C3ACE2 /* Pods_Zepplin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06675A5A240535D300812717 /* Zepplin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06675A6D240535D400812717 /* Build configuration list for PBXNativeTarget "Zepplin" */;
+			buildPhases = (
+				56AF8E3DA3957B3FC6B3000C /* [CP] Check Pods Manifest.lock */,
+				06675A57240535D300812717 /* Sources */,
+				06675A58240535D300812717 /* Frameworks */,
+				06675A59240535D300812717 /* Resources */,
+				792B0E14EBDD77D8F5EE1BF2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zepplin;
+			productName = Zepplin;
+			productReference = 06675A5B240535D300812717 /* Zepplin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06675A53240535D300812717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mayank Sharma";
+				TargetAttributes = {
+					06675A5A240535D300812717 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 06675A56240535D300812717 /* Build configuration list for PBXProject "Zepplin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06675A52240535D300812717;
+			productRefGroup = 06675A5C240535D400812717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06675A5A240535D300812717 /* Zepplin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06675A59240535D300812717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06675A69240535D400812717 /* LaunchScreen.storyboard in Resources */,
+				065B1173240E5BA200435FC4 /* Configuration.plist in Resources */,
+				06675A66240535D400812717 /* Assets.xcassets in Resources */,
+				06675A64240535D400812717 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56AF8E3DA3957B3FC6B3000C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zepplin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792B0E14EBDD77D8F5EE1BF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zepplin/Pods-Zepplin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AwesomeCache/AwesomeCache.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwesomeCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zepplin/Pods-Zepplin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06675A57240535D300812717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ECB1262418F8AB00590987 /* PropertyModel.swift in Sources */,
+				065B1159240E55AA00435FC4 /* UserAPI.swift in Sources */,
+				06ECB1272418F8AB00590987 /* Property.swift in Sources */,
+				065B114F240E55AA00435FC4 /* APIHelper.swift in Sources */,
+				065B1177240E809F00435FC4 /* ReachConfiguration.swift in Sources */,
+				065B114D240E55AA00435FC4 /* AlamofireExtensions.swift in Sources */,
+				06B815CD24125B4B00B493AA /* AppConstants.swift in Sources */,
+				0640BF932406798A00C56223 /* RegisterViewController.swift in Sources */,
+				06675A61240535D400812717 /* SignInViewController.swift in Sources */,
+				065B1170240E55AA00435FC4 /* User.swift in Sources */,
+				06E43E592418E1BE003ABF1B /* PropertyAPI.swift in Sources */,
+				065B117E240E81F200435FC4 /* RequestBuilder.swift in Sources */,
+				065B115A240E55AA00435FC4 /* AccessToken.swift in Sources */,
+				06B815CF24127A6800B493AA /* UserModel.swift in Sources */,
+				065B117C240E81F200435FC4 /* AlamofireCached.swift in Sources */,
+				06B815D124127C0500B493AA /* SignInAPI.swift in Sources */,
+				06B815D324127C3B00B493AA /* DeviceModal.swift in Sources */,
+				06675A5F240535D400812717 /* AppDelegate.swift in Sources */,
+				065B117D240E81F200435FC4 /* AlamofireResponseWrapper.swift in Sources */,
+				065B1150240E55AA00435FC4 /* AccessTokenAPI.swift in Sources */,
+				06ECB1252418F8AB00590987 /* PropertyList.swift in Sources */,
+				065B114E240E55AA00435FC4 /* NSIResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06675A62240535D400812717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06675A63240535D400812717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06675A67240535D400812717 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06675A68240535D400812717 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06675A6B240535D400812717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06675A6C240535D400812717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06675A6E240535D400812717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5732EFA5CB409A43F74EE25A /* Pods-Zepplin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zepplin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsolutions.Zepplin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06675A6F240535D400812717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D053A5E9F5FE46366C30D6 /* Pods-Zepplin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zepplin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netsolutions.Zepplin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06675A56240535D300812717 /* Build configuration list for PBXProject "Zepplin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06675A6B240535D400812717 /* Debug */,
+				06675A6C240535D400812717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06675A6D240535D400812717 /* Build configuration list for PBXNativeTarget "Zepplin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06675A6E240535D400812717 /* Debug */,
+				06675A6F240535D400812717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06675A53240535D300812717 /* Project object */;
+}
